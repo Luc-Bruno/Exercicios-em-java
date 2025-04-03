@@ -34,6 +34,7 @@ public class Main {
 
                         System.out.println("Digite o nível atual do jogador:");
                         int nivel = leitor.nextInt();
+                        leitor.nextLine();
 
                         Jogador.setjogadores(nome, pontuacao, nivel);
                     }
